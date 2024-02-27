@@ -1,4 +1,51 @@
 /* DEBUG */
-body {
+/* body {
     background-color: black;
+} */
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    padding: 20px;
+}
+
+.video-call {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+.person {
+    display: flex;
+    /* height: calc(100% - 120px); */
+    width: 225px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 120px;
+    background-color: #222222;
 }
