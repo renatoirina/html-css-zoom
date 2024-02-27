@@ -97,3 +97,17 @@ footer {
     width: 100%; /* Aggiunto */
     z-index: 100; /* Aggiunto - Assicura che il footer rimanga sopra il contenuto */
 }
+
+.acquisition, .live-control, .end-meeting {
+    display: flex;
+}
+
+.microphone {
+    width: 40px;
+}
+
+.microphone > .fa-solid {
+    font-size: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
